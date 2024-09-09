@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 1.5;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+.container{
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+.header {
+  background-color: rgb(28, 235, 224);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+
+}
+.container {
+  flex: 1;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+
+}
+
+.logo {
+
+  color: #000000;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu .navar ul li {
+ position: relative;
+ float: left;
+}
+
+.menu .navar ul li a {
+  font-size: 20px;
+  padding: 25px;
+  color: #000000;
+  display: block;
+  font-weight: 600;
+}
+
+#menu{
+  display: none;
+
+}
+
+.menu-icono {
+  width: 25px;
+}
+.menu label{
+  cursor: pointer;
+  display: none;
+
+}
+
+.header-txt {
+  text-align: center;
+}
+
+.header-txt h1 {
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.header-txt p {
+  color: #000000;
+  font-size: 16px;
+  padding: 0 250px;
+  margin-bottom: 45px;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 29¿0px 45px;
+  border: 1pt black;
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-1:hover {
+  color: #26442b;
+  background-color: aliceblue;
+}
+.general {
+  padding: 50px 0;
+  text-align: left;
+}
+.general content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+h2 {
+  font-size:20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.txt h3 {
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.txt.p {
+  font-size: 20px;
+  color: #000000;
+  font-size: 16px;
+}

@@ -1,0 +1,33 @@
+footer input[type="text"],
+footer input[type="email"] {
+    background-color: #f0f8ff; 
+    color: rgb(0, 0, 0); 
+    border: 2px solid #4CAF50; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+footer input[type="text"]:focus,
+footer input[type="email"]:focus {
+    background-color: #e6f7ff; 
+    border-color: #2c8fd0; 
+    outline: none; 
+}
+
+
+footer input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+footer input[type="submit"]:hover {
+    background-color: #45a049; 
+}
